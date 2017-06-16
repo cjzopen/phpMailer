@@ -1,4 +1,4 @@
-# phpMailer
+# phpMailer ver.5.2.2
 phpMailer example
 <pre>
 $submitDate = 'example string';
