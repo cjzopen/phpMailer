@@ -47,8 +47,10 @@ strong { color: #ea2126; }#content {padding: 0;}#footer td { border-top: 2px sol
 &lt;/html&gt;
 MAILBODY;
         
-        $mail-&gt;AddAddress("2012cjz@gmail.com", "cj");
-        $mail-&gt;Subject = "mail test";
+        $mail-&gt;AddAddress("2012cjz@gmail.com", "cj");  //收件者
+        $mail-&gt;AddCC("xxx@com.tw", "xxx");             //副本
+        $mail-&gt;AddBCC("xxx@com.tw", "xxx");            //密件
+        $mail-&gt;Subject = "mail test";
         $mail-&gt;MsgHTML($body);
         $mail-&gt;send();
 
