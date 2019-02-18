@@ -1,3 +1,8 @@
+# phpMailer 6.0.0 ↑
+
+see [here](https://github.com/PHPMailer/PHPMailer)
+
+
 # phpMailer ver.5.2.2
 phpMailer example
 <pre>
